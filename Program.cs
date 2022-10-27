@@ -29,6 +29,7 @@ namespace LESSON_6__LOOPS_
 
             // Rectangle
 
+
             //for(int i = 0; i < 3; i++)
             //{
             //    for(int j = 0; j < 10; j++)
@@ -38,7 +39,8 @@ namespace LESSON_6__LOOPS_
             //    Console.WriteLine();
             //}
 
-            // equailateral triangle
+            // Rectangular Trackball
+
 
             //for (int i = 0; i < 10; i++)
             //{
@@ -48,6 +50,35 @@ namespace LESSON_6__LOOPS_
             //    }
             //    Console.WriteLine();
             //}
+
+            // Equailateral Triangle
+
+
+            //int numf = 10;
+            //int nums = 20;
+            //int one = 1;
+
+            //for(int i = 0; i < numf; i++)
+            //{
+            //    for(int j = 0; j < nums; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for(int z = 0; z < one; z++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    nums -= 1;
+            //    one += 2;
+            //    Console.WriteLine();
+            //}
+
+            //one = 1;
+
+            // Petragone
+
+
+
 
             // Task 4
 
@@ -63,6 +94,6 @@ namespace LESSON_6__LOOPS_
             //} while (iterator < factorial);
 
             //Console.WriteLine($"The quantity of possible ways: {sum}");
-        } 
+        }
     }
 }
