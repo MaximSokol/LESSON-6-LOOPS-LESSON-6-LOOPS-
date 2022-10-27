@@ -54,9 +54,9 @@ namespace LESSON_6__LOOPS_
             // Equailateral Triangle
 
 
-            //int numf = 10;
-            //int nums = 20;
-            //int one = 1;
+            int numf = 10;
+            int nums = 20;
+            int one = 1;
 
             //for(int i = 0; i < numf; i++)
             //{
@@ -73,11 +73,43 @@ namespace LESSON_6__LOOPS_
             //    Console.WriteLine();
             //}
 
-            //one = 1;
+            one = 1;
 
             // Petragone
 
+            int buf = nums;
 
+            for(int i = 0; i < (numf + numf +1); i++)
+            {
+                if(i < numf)
+                {
+                    for(int j = 0; j < buf; j++)
+                    {
+                        Console.Write(" ");
+                    }
+                    for(int k = 0; k  < one; k++)
+                    {
+                        Console.Write("*");
+                    }
+                    buf -= 1;
+                    one += 2;
+                    Console.WriteLine();
+                }
+                else
+                {
+                    for (int j = 0; j < buf; j++)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int k = 0; k < one; k++)
+                    {
+                        Console.Write("*");
+                    }
+                    buf += 1;
+                    one -= 2;
+                    Console.WriteLine();
+                }
+            }
 
 
             // Task 4
